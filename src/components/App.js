@@ -10,7 +10,6 @@ function App() {
         <nav>
     <button onClick={() => {
     window.history.replaceState(null,null,'/')}>Reset</button>
-          Reset
         </nav>
         <KeyValueStore />
       </div>
